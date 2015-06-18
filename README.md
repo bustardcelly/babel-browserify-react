@@ -42,9 +42,12 @@ Browserify
 ---
 [browserify](http://browserify.org/) is used in the bundling process of modules for the browser because the default output module syntax for __Babel__ is CommonJS.
 
+### Articles
+* [http://www.2ality.com/2014/09/es6-modules-final.html](http://www.2ality.com/2014/09/es6-modules-final.html)
+
 ReactJS
 ===
-[ReactJS](https://facebook.github.io/react/index.html) is used for the component library. It is currently loaded in as a `require`'d library and bundled with [browserify](http://browserify.org/) in the build.
+[ReactJS](https://facebook.github.io/react/index.html) is used for the component library. It is currently loaded in as a `import`ed library and bundled with the build.
 
 ### Articles
 * [http://blog.risingstack.com/the-react-way-getting-started-tutorial/](http://blog.risingstack.com/the-react-way-getting-started-tutorial/)
@@ -52,3 +55,5 @@ ReactJS
 Flux
 ---
 A basic [Flux](https://facebook.github.io/flux/docs/todo-list.html) design is used as a base "architecture" for the application. The term "architecture" is used in quotes as it is a design that is adhered to rather than a suite of libraries that the application is forced to conform to.
+
+In addition, the only "sanctioned" Flux-y thing - as far as code is concerned - incorporated into the project is the [Dispatcher](https://facebook.github.io/flux/docs/dispatcher.html).
