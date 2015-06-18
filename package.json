@@ -1,0 +1,17 @@
+{
+  "name": "babel-browserify-react",
+  "version": "1.0.0",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
