@@ -1,7 +1,7 @@
 /* global React */
 'use strict';
 
-var React = require('react');
+import React from 'react';
 
 class HelloWorld extends React.Component {
 
