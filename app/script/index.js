@@ -2,7 +2,7 @@
 'use strict';
 
 import React from 'react';
-import HelloComponent from './view/hello-world';
+import HelloComponent from './components/HelloWorldList';
 
 React.render(<HelloComponent/>, document.getElementById('greeting'));
 

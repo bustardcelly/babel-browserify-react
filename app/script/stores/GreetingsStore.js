@@ -4,7 +4,7 @@ import EventEmitter from 'events';
 import Dispatcher from '../dispatcher/Dispatcher';
 import {actions as GreetingsActions, GreetingsActionEnum} from '../actions/GreetingsActions.js';
 
-var GreetingsStoreEventEnum = {
+const GreetingsStoreEventEnum = {
   CHANGE: 'greetingsStoreChangeEvent'
 };
 
@@ -35,7 +35,7 @@ class GreetingsStore extends EventEmitter {
 }
 
 var store = new GreetingsStore();
-Dispatcher.register(store, function(payload) {
+Dispatcher.register(function(payload) {
 
   var action = payload.action;
   switch(action.type) {
