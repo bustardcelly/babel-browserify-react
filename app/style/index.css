@@ -1,0 +1,9 @@
+:root {
+  --main-color: blue;
+  --font-size: 1rem;
+}
+
+ul > li {
+  color: var(--main-color);
+  font-size: calc(var(--font-size) * 2);
+}

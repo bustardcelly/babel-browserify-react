@@ -7,6 +7,7 @@
   "devDependencies": {
     "babelify": "^6.1.2",
     "browserify": "^10.2.4",
+    "cssnext": "^1.7.1",
     "flux": "^2.0.3",
     "gulp": "^3.9.0",
     "reactify": "^1.1.1",
